@@ -1,0 +1,35 @@
+/*
+Theme Name:     Confbuddy
+Theme URI:      http://confbuddy.com/
+Description:    Child theme for the Twenty Twelve theme
+Author:         Yuri Victor
+Author URI:     http://yurivictor/
+Template:       bp-default 
+Version:        0.1.0
+*/
+
+.accessibly-hidden { left: -999em; position: absolute; }
+
+header { background: #3498db; margin-bottom: 30px; }
+
+.blue { color: #3498db; }
+.white { color: #fff; }
+
+h1,
+li,
+ul { margin: 0; }
+h1 { font-style: italic; }
+.fs16 { font-size: 16px; }
+.fs36 { font-size: 36px; }
+.lh50 { line-height: 50px; }
+.amaranth { font-family: 'Amaranth', sans-serif;  }
+
+.marL15 { margin-left: 15px; }
+
+.list-none { list-style: none; }
+
+/** Clearfix *******************************************************/
+.cf:before,
+.cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
