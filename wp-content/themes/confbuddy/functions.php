@@ -9,9 +9,11 @@ $version = '0.1.0';
  * Hook actions in that run on every page-load
  *
  * @uses add_action()
+ * @uses add_filter()
  */
 function add_actions() {
     add_action( 'wp_enqueue_scripts', 'enqueue' );
+    add_filter( 'show_admin_bar', 'kill_admin_bar');
 }
 
 /**
@@ -28,9 +30,10 @@ function enqueue() {
 }
 
 /**
- * Remove buddypress styles
+ * Remove default styles
  */
 function bp_dtheme_enqueue_styles() {}
+function kill_admin_bar() { return false; }
 
 /** Load Methods **********************************************************/
 add_actions();

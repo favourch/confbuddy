@@ -10,23 +10,53 @@ Version:        0.1.0
 
 .accessibly-hidden { left: -999em; position: absolute; }
 
-header { background: #3498db; margin-bottom: 30px; }
+header { background: #3498db; }
 
+a,
+a:hover,
+a:focus,
 .blue { color: #3498db; }
+.grey { color: #6a6a69; }
 .white { color: #fff; }
 
+a,
+a:hover,
+a:focus,
 h1,
-li,
-ul { margin: 0; }
+h2,
+h6,
+p,
+ul { margin: 0; padding: 0; }
+
 h1 { font-style: italic; }
 .fs16 { font-size: 16px; }
 .fs36 { font-size: 36px; }
 .lh50 { line-height: 50px; }
 .amaranth { font-family: 'Amaranth', sans-serif;  }
 
+.borB1S { border-bottom: 1px solid #9bc1ec; }
+
+.marB15 { margin-bottom: 15px; }
+.marB30 { margin-bottom: 30px; }
 .marL15 { margin-left: 15px; }
+.marT10 { margin-top: 10px; }
+.padB25 { padding-bottom: 25px; }
+
 
 .list-none { list-style: none; }
+
+/* TRANSISTIONS */
+a { 
+    -moz-transition: all .2s ease-out;  
+    -o-transition: all .2s ease-out; 
+    -webkit-transition: all .2s ease-out; 
+    -ms-transition: all .2s ease-out; 
+    transition: all .2s ease-out; 
+}
+
+/* OPACITY */
+a:hover, 
+a:focus { opacity: .4; }
 
 /** Clearfix *******************************************************/
 .cf:before,

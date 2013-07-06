@@ -14,16 +14,17 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-<header>
+<header class="marB30">
 	<div class="row">
 		<div class="large-8 large-centered columns">
-		<h1 class="amaranth left fs36" role="banner"><a class="white" href="#" title="Confbuddy">confbuddy</a></h1>
-		<ul class="list-none right">
-			<li class="left fs16 lh50 marL15"><a class="white" href="#"><i class="icon-search"></i></a></li>
-			<li class="left fs16 lh50 marL15"><a class="white" href="#"><i class="icon-user"></i></a></li>
-		</ul>
+			<h1 class="amaranth left fs36" role="banner"><a class="white" href="#" title="Confbuddy">confbuddy</a></h1>
+			<ul class="list-none right">
+				<li class="left fs16 lh50 marL15"><a class="white" href="#"><i class="icon-search"></i></a></li>
+				<li class="left fs16 lh50 marL15"><a class="white" href="#"><i class="icon-user"></i></a></li>
+			</ul>
 		</div>
 	</div>
 </header>
-	<div class="row">
-		<div class="large-8 large-centered columns">
+<div class="row">
+	<div class="large-8 large-centered columns">
+
